@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Joe Johnson | Portfolio</title>
+	<style>
+		#first {
+			margin: 25px;
+			border-top: black solid 5px;
+			border-bottom: black solid 5px;
+		}
+		#middleTop {
+			border-top: black solid 1px;
+			margin: 20px 100px;
+		}	
+		h1 {
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: bold;
+			margin-bottom: 30px;
+		}
+		p, ul {
+			font-size: 20px;
+		}
+		.awesome {
+			font-weight: bold;
+			font-style: italic;
+		}
+		#listAboutMe {
+			text-align: center;
+			margin-top: 40px;
+			padding: 0px;
+			color: black;
+		}
+		#listAboutMe li {
+			display: inline;
+			font-weight: bold;
+		}
+		#listAboutMe li:first-child {
+			font-style: italic;
+		}
+
+		article {
+			margin: 20px 100px;
+			font-size: 20px;
+		}
+		h5 {
+			font-size: 20px;
+			margin: 40px 100px 20px 100px;
+		}
+		.jobList,.educationList {
+			padding: 0;
+			margin: 20px 100px 20px 150px;
+			list-style-type: square;
+		}
+		.jobTitle {
+			font-style: italic;
+			font-weight: bold;
+		}
+		.startAndEndYear {
+			font-size: 15px;
+		}
+		img {
+			margin: 10px;
+			padding: 3px;
+			border: black solid 1px;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="./style">
+</head>
+<body>
+	<div id="first">
+		<ul id="listAboutMe">
+			<li><a href="file:///Users/PGY/Desktop/fundamentals/class2/lab-simple-website/index1.html">About Me</a>
+			</li>
+			<li> | </li>
+			<li>Portfolio</a></li>
+		</ul>
+		<h1>Joe Johnson</h1>
+		
+		<div id="middleTop"></div>
+		<article>
+			<h2>Experience</h2>
+			<p>I recently graduated from a Front-End Web Development course at General Assembly where I learned HTML, CSS, JavaScript, jQuery and how to be an <span class="awesome">awesome</span> Front-End Web Developer! During my spare time, I enjoy senior water aerobics, pickling, and spending time with my goldfish, Jerry.</p>
+		</article>
+		
+		<h5>PORTFOLIO</h5>
+		<ul class="jobList">
+			<li><p><span class="jobTitle">Web Developer</span>, Relaxr<span class="startAndEndYear"> 2015 - present</span></br>Developed a multi-column layout blog, landing page, and contact forms that render on mobile devices.</p>
+			<img src="./images/relaxr-deliverable.png">
+			</li>
+			<li>
+				<p><span class="jobTitle">Web Developer</span>, Startup Matchmaker<span class="startAndEndYear"> 2015 - present</span></br>Used a design team's wireframes to develop this company's responsive homepage.</p>
+				<img src="./images/startup-matchmaker-deliverable.png">
+			</li>
+			<li>
+				<p><span class="jobTitle">Web Developer</span>, CitiPix <span class="startAndEndYear"> 2015 - present</span></br>Built web app prototype that allows users to store and quickly retrieve photos using keywords.</p>
+				<img src="./images/citipix-deliverable.png">
+			</li>
+		</ul>
+		<h5>EDUCATION</h5>
+		<ul class="educationList">
+			<li>General Assembly — FEWD 2015</li>
+			<li>College of Soft Knocks — B.S. 2009</li>
+			<li>School of Hard Knocks — 2005 (Honors)</li>
+		</ul>
+	</div>
+</body>
+</html>
